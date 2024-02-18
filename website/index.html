@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Directing Template">
+    <meta name="keywords" content="Directing, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>It's My Job</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/flaticon.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/barfiller.css" type="text/css">
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-3 col-md-3">
+                    <div class="header__logo">
+                        <a href="./index.html"><img src="image/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-9 col-md-9">
+                    <div class="header__nav">
+                        <nav class="header__menu mobile-menu">
+                            <ul>
+                                <li class="active"><a href="./index.html">Home</a></li>
+                                <li><a href="./about.html">About</a></li>
+                                <li><a href="./contact.html">Contact</a></li>
+                                
+                            </ul>
+                        </nav>
+                        <div class="header__menu__right">
+                            <a href="#" class="primary-btn"><i class="fa fa-plus"></i> Find Job</a>
+                            <a href="#" class="login-btn"><i class="fa fa-user"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+
+    <!-- Hero Section Begin -->
+    <section class="hero set-bg" data-setbg="image/1.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="hero__text">
+                        <div class="section-title">
+                            <h2>Your Ultimate Destination for Job Opportunities</h2>
+                            <p><b>Discover. Apply. Succeed.</b></p>
+                        </div>
+                        <div class="hero__search__form">
+                            <form action="#">
+                                <div class="select__option">
+                                    <select name="pages" id="pages">
+                                        <option value="">Choose Profession</option>
+                                        <option value="BD">Back-End Development</option>
+                                        <option value="CC">Cloud Computing</option>
+                                        <option value="FD">Front-End Development</option>
+                                        <option value="GD">Graphic Designing</option>
+                                        <option value="ID">Interior Designing</option>
+                                        <option value="SSM">Social Media Marketing</option>
+                                        <option value="UIUX">UI/UX Designing</option>
+                                        <option value="WD">Web Development</option>
+                                    </select>
+                                </div>
+                                <button type="submit">Explore Now</button>
+                            </form>
+                            <script>
+                                document.getElementById('redirectForm').addEventListener('submit', function(event) {
+                                  event.preventDefault(); // Prevent the form from submitting
+                              
+                                  // Get the selected page value
+                                  var selectedPage = document.getElementById('pages').value;
+                              
+                                  // Redirect to the selected page
+                                  window.location.href = selectedPage;
+                                });
+                              </script>
+                        </div>
+                        <ul class="hero__categories__tags">
+                            <li><a href="#"><img src="img/hero/cat-1.png" alt=""> Graphic Designing</a></li>
+                            <li><a href="#"><img src="img/hero/cat-3.png" alt=""> Social Media Marketing</a></li>
+                            <li><a href="#"><img src="img/hero/cat-4.png" alt=""> Web Development</a></li>
+                            <li><a href="#"><img src="img/hero/cat-5.png" alt=""> Hotel Management</a></li>
+                            <li><a href="#"><img src="img/hero/cat-6.png" alt=""> All Categories</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- Categories Section Begin -->
+    <section class="categories spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>Featured Job Companies</h2>
+                        <p>Travelocity empowers travelers who are giving back on their trips in ways big and small</p>
+                    </div>
+                    <div class="categories__item__list">
+                        <div class="categories__item">
+                            <img src="img/categories/cat-1.png" alt="">
+                            <h5>Food & Drink</h5>
+                            <span>78 Listings</span>
+                        </div>
+                        <div class="categories__item">
+                            <img src="img/categories/cat-2.png" alt="">
+                            <h5>Restaurent</h5>
+                            <span>32 Listings</span>
+                        </div>
+                        <div class="categories__item">
+                            <img src="img/categories/cat-3.png" alt="">
+                            <h5>Hotels</h5>
+                            <span>16 Listings</span>
+                        </div>
+                        <div class="categories__item">
+                            <img src="img/categories/cat-4.png" alt="">
+                            <h5>Beauty & Spa</h5>
+                            <span>55 Listings</span>
+                        </div>
+                        <div class="categories__item">
+                            <img src="img/categories/cat-5.png" alt="">
+                            <h5>Shopping</h5>
+                            <span>23 Listings</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Categories Section End -->
+
+
+    <!-- Work Section Begin -->
+    <section class="work spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>How Does It Work</h2>
+                        <p>Travelocity empowers travelers who are giving back on their trips in ways big and small</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="work__item">
+                        <div class="work__item__number">01.</div>
+                        <img src="img/work/work-1.png" alt="">
+                        <h5>Location & Categories</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="work__item">
+                        <div class="work__item__number">02.</div>
+                        <img src="img/work/work-2.png" alt="">
+                        <h5>Explore Listting</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="work__item">
+                        <div class="work__item__number">03.</div>
+                        <img src="img/work/work-3.png" alt="">
+                        <h5>Making Appointments</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Work Section End -->
+
+
+    <!-- Testimonial Section Begin -->
+    <section class="testimonial spad set-bg" data-setbg="image/2.png">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title">
+                        <h2>Trusted By Over 5000+ User</h2>
+                        <p>What people say about us</p>
+                    </div>
+                    <div class="testimonial__slider owl-carousel">
+                        <div class="testimonial__item" data-hash="review-1">
+                            <p>"I had been struggling to find relevant job opportunities until I came across 'It's My Job'. The website's extensive collection of job listings, combined with the advanced search and filtering options, empowered me to narrow down my search and land my ideal job. Thank you for simplifying the job hunting process!"</p>
+                            <div class="testimonial__item__author__text">
+                                <h5>Rahul Garg</h5>
+                                <div class="testimonial__item__author__rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial__item" data-hash="review-2">
+                            <p>"Using 'It's My Job' was a game-changer for me. The platform's user-friendly interface, personalized job recommendations, and seamless application process made my job search a breeze. I'm grateful for the exceptional service it provides to job seekers like me."</p>
+                            <div class="testimonial__item__author__text">
+                                <h5>Kapil Giri Gosal</h5>
+                                <div class="testimonial__item__author__rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial__item" data-hash="review-3">
+                            <p>"I can't thank the 'It's My Job' team enough for creating such an amazing platform. The quality of job listings, the ease of use, and the prompt notifications on new opportunities made my job search efficient and successful. Highly recommended for anyone seeking their next career move!"</p>
+                            <div class="testimonial__item__author__text">
+                                <h5>Subhagi Bansal</h5>
+                                <div class="testimonial__item__author__rating">
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                    <i class="fa fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Testimonial Section End -->
+
+
+    <!-- Footer Section Begin -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="footer__about">
+                        <div class="footer__about__logo">
+                            <a href="./index.html"><img src="image/logo.png" alt=""></a>
+                        </div>
+                        <p>We'd love to hear from you! Feel free to get in touch with us using the following contact information:</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 offset-lg-1 col-md-6">
+                    <div class="footer__address">
+                        <ul>
+                            <li>
+                                <span>Call Us:</span>
+                                <p>(+91) 9810158539</p>
+                            </li>
+                            <li>
+                                <span>Email:</span>
+                                <p>info@itsmyjob.com</p>
+                            </li>
+                            <li>
+                                <span>Connect Us:</span>
+                                <div class="footer__social">
+                                    <a href="#"><i class="fa fa-facebook"></i></a>
+                                    <a href="#"><i class="fa fa-instagram"></i></a>
+                                    <a href="#"><i class="fa fa-twitter"></i></a>
+                                    <a href="#"><i class="fa fa-skype"></i></a>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 offset-lg-1 col-md-6">
+                    <div class="footer__widget">
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Support</a></li>
+                            <li><a href="#">How it work</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                        <ul>
+                            <li><a href="#">Sign In</a></li>
+                            <li><a href="#">Instagram</a></li>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Twitter</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="footer__copyright">
+                        <div class="footer__copyright__text">
+                            <p>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</a>
+                            </p>
+                        </div>
+                        <div class="footer__copyright__links">
+                            <a href="#">Terms</a>
+                            <a href="#">Privacy Policy</a>
+                            <a href="#">Cookie Policy</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/jquery.barfiller.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
